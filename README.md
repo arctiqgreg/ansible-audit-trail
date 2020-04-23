@@ -4,7 +4,7 @@ This is just a quick and dirty hack, if you are looking for a more solid foundat
 
 ## Requirements
 
-- pip3 install ansible
+- pip3 install ansible slack_webhook
 - vagrant
 - a slack webhook in a $SLACK_WEBHOOK_URL environment variable
 
