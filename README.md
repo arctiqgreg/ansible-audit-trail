@@ -9,4 +9,5 @@ This is just a quick and dirty hack, if you are looking for a more solid foundat
 - a slack webhook in a $SLACK_WEBHOOK_URL environment variable
 
 ## Run
+source .env
 vagrant up

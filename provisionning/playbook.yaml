@@ -5,3 +5,7 @@
   - name: say hello
     debug:
       msg: Hello World! My name is {{ inventory_hostname }}
+
+  - fail:
+      msg: "Failed"
+    when: "{{ lookup('env','FAIL') }}"
